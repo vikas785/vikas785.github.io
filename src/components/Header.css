@@ -1,0 +1,35 @@
+#headerPage .ant-layout-header {
+    padding: 0px 0px;
+}
+
+#headerPage .ant-menu-item{
+    padding: 0px 5px;
+}
+
+#headerPage .login-form-button{
+    height:35px;
+    font-weight:600;
+}
+
+.trail-button, .login-button{
+    width:150px;
+    
+}
+
+.trail-button{
+    background-color: rgb(36, 36, 66)!important;
+    border-color: rgb(36, 36, 66)!important;
+}
+.login-button{
+    background-color: rgb(248, 144, 25)!important;
+    border-color: rgb(248, 144, 25)!important;
+    margin-left:10px;
+}
+
+@media screen and (max-width: 768px) {
+
+    #headerPage .nav-btn-container{
+        display:none;
+    }
+
+}

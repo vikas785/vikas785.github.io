@@ -1,0 +1,85 @@
+#LoginPage Form{
+    margin-top:25%;
+}
+
+#LoginPage .login-form-header{
+    margin-bottom: 0px;
+    color:rgb(36, 36, 66);
+    
+    font-weight:700!important;
+}
+
+#LoginPage .login-form-header, #LoginPage .login-form-subheader{
+     display:flex;
+     justify-content: center;
+     
+}
+
+#LoginPage .login-form-subheader{
+    color:rgb(87, 86, 86);
+}
+
+#LoginPage Input{
+    height:45px;
+}
+
+
+#LoginPage .ant-form-item{
+    margin-bottom:12px;
+}
+
+#LoginPage .login-form-button{
+    width:100%;
+    height:45px;
+    background-color: rgb(36, 36, 66);
+    border-color:rgb(36, 36, 66)!important;
+}
+
+
+#LoginPage .checkbox-label,#LoginPage .login-form-forgot{
+    color: rgb(36, 36, 66)!important;
+}
+
+
+
+
+#LoginPage input:checked {
+    background-color: rgb(36, 36, 66)!important;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    #LoginPage Form{
+        margin-top:10%;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+
+    #LoginPage Form{
+        margin-top:5%;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    #LoginPage Form{
+        margin-top:30%;
+    }
+
+
+    #LoginPage .ant-col-offset-4 {
+        margin-left: 0px;
+    }
+
+    #LoginPage .img-container{
+        display:none;
+    }
+
+
+
+}
+
